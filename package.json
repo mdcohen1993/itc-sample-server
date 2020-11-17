@@ -1,0 +1,26 @@
+{
+  "name": "itc-heroku-sample",
+  "version": "1.0.0",
+  "description": "itc-heroku-sample",
+  "main": "app.js",
+  "engines": {
+    "node": "12.x"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdcohen1993/ITC-HEROKU-SAMPLE.git"
+  },
+  "author": "Max Cohen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mdcohen1993/ITC-HEROKU-SAMPLE/issues"
+  },
+  "homepage": "https://github.com/mdcohen1993/ITC-HEROKU-SAMPLE#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
