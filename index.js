@@ -7,6 +7,10 @@ app.get('/', function(req, res){
     res.sendFile('./index.html');
 })
 
+app.get('/', function(req, res){
+    res.sendFile('./leopics1.jpg')
+}
+)
 
 
 
