@@ -135,6 +135,21 @@
   dependencies:
     "mimic-response" "^1.0.0"
 
+"cloudinary-core@^2.10.2":
+  "integrity" "sha512-ZRnpjSgvx+LbSf+aEz5NKzxDB4Z0436aY/0BSDa90kAHiwAyd84VyEi95I74SE80e15Ri9t5S2xtksTXpzk9Xw=="
+  "resolved" "https://registry.npmjs.org/cloudinary-core/-/cloudinary-core-2.11.3.tgz"
+  "version" "2.11.3"
+
+"cloudinary@":
+  "integrity" "sha512-akOxzroonvwWkuSVq7BI50nYpZPRXc5DbQIYETCVeKX9ZoToH2Gvc3MdUH63UtKiszuGYE51q2B+jQsJkBp2AQ=="
+  "resolved" "https://registry.npmjs.org/cloudinary/-/cloudinary-1.23.0.tgz"
+  "version" "1.23.0"
+  dependencies:
+    "cloudinary-core" "^2.10.2"
+    "core-js" "3.6.5"
+    "lodash" "^4.17.11"
+    "q" "^1.5.1"
+
 "color-convert@^2.0.1":
   "version" "2.0.1"
   dependencies:
@@ -169,6 +184,11 @@
 
 "cookie@0.4.0":
   "version" "0.4.0"
+
+"core-js@3.6.5":
+  "integrity" "sha512-vZVEEwZoIsI+vPEuoF9Iqf5H7/M3eeQqWlQnYa8FSKKePuYTf5MWnxb5SDAzCa60b3JBRS5g9b+Dq7b1y/RCrA=="
+  "resolved" "https://registry.npmjs.org/core-js/-/core-js-3.6.5.tgz"
+  "version" "3.6.5"
 
 "crypto-random-string@^2.0.0":
   "version" "2.0.0"
@@ -445,6 +465,11 @@
   dependencies:
     "package-json" "^6.3.0"
 
+"lodash@^4.17.11", "lodash@>=4.0":
+  "integrity" "sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA=="
+  "resolved" "https://registry.npmjs.org/lodash/-/lodash-4.17.20.tgz"
+  "version" "4.17.20"
+
 "lowercase-keys@^1.0.0", "lowercase-keys@^1.0.1":
   "version" "1.0.1"
 
@@ -576,6 +601,11 @@
   "version" "2.1.1"
   dependencies:
     "escape-goat" "^2.0.0"
+
+"q@^1.5.1":
+  "integrity" "sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc="
+  "resolved" "https://registry.npmjs.org/q/-/q-1.5.1.tgz"
+  "version" "1.5.1"
 
 "qs@6.7.0":
   "version" "6.7.0"
