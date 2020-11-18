@@ -10,7 +10,7 @@
   "author": "mdcohen1993 <mdcohen1993@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
-    "cloudinary": "",
+    "cloudinary": "^1.23.0",
     "express": "^4.17.1"
   },
   "devDependencies": {
